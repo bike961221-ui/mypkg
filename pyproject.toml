@@ -1,0 +1,9 @@
+[project]
+name = "mypkg"
+version = "0.1.0"
+description = "my practice package"
+requires-python = ">=3.8"
+
+
+[project.scripts]
+mypkg = "mypkg.__main__:main"
